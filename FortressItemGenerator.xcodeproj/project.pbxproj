@@ -12,6 +12,9 @@
 		3F58B0971DE73DC200037BA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F58B0951DE73DC200037BA3 /* Main.storyboard */; };
 		3F58B0991DE73DC200037BA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F58B0981DE73DC200037BA3 /* Assets.xcassets */; };
 		3F58B09C1DE73DC200037BA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F58B09A1DE73DC200037BA3 /* LaunchScreen.storyboard */; };
+		3FFF01BB1DEC82B300624ED5 /* tf2build.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FFF01B91DEC82B300624ED5 /* tf2build.ttf */; };
+		3FFF01BC1DEC82B300624ED5 /* TF2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FFF01BA1DEC82B300624ED5 /* TF2.ttf */; };
+		3FFF01C51DEC93C800624ED5 /* TF2secondary.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FFF01C31DEC93C500624ED5 /* TF2secondary.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		3F58B0981DE73DC200037BA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F58B09B1DE73DC200037BA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F58B09D1DE73DC200037BA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FFF01B91DEC82B300624ED5 /* tf2build.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = tf2build.ttf; path = ../../../../../Downloads/tf2build.ttf; sourceTree = "<group>"; };
+		3FFF01BA1DEC82B300624ED5 /* TF2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = TF2.ttf; path = ../../../../../Downloads/TF2.ttf; sourceTree = "<group>"; };
+		3FFF01C31DEC93C500624ED5 /* TF2secondary.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = TF2secondary.ttf; path = ../../../../../Downloads/TF2secondary.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 		3F58B0901DE73DC100037BA3 /* FortressItemGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				3FFF01B81DEC828700624ED5 /* Resources */,
 				3F58B0911DE73DC100037BA3 /* AppDelegate.swift */,
 				3F58B0931DE73DC100037BA3 /* ViewController.swift */,
 				3F58B0951DE73DC200037BA3 /* Main.storyboard */,
@@ -62,6 +69,16 @@
 				3F58B09D1DE73DC200037BA3 /* Info.plist */,
 			);
 			path = FortressItemGenerator;
+			sourceTree = "<group>";
+		};
+		3FFF01B81DEC828700624ED5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3FFF01C31DEC93C500624ED5 /* TF2secondary.ttf */,
+				3FFF01B91DEC82B300624ED5 /* tf2build.ttf */,
+				3FFF01BA1DEC82B300624ED5 /* TF2.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +140,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FFF01BB1DEC82B300624ED5 /* tf2build.ttf in Resources */,
 				3F58B09C1DE73DC200037BA3 /* LaunchScreen.storyboard in Resources */,
 				3F58B0991DE73DC200037BA3 /* Assets.xcassets in Resources */,
+				3FFF01BC1DEC82B300624ED5 /* TF2.ttf in Resources */,
+				3FFF01C51DEC93C800624ED5 /* TF2secondary.ttf in Resources */,
 				3F58B0971DE73DC200037BA3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +317,7 @@
 				3F58B0A21DE73DC200037BA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
