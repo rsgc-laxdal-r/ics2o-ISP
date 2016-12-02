@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>goodstats</key>
+	<array>
+		<string>Critical Hits on Burning Players</string>
+		<string>On Hit: Target is Engulfed in Flames</string>
+		<string>On Hit: Gain up to +25 Health</string>
+		<string>Increased Damage While in Mid-Air</string>
+		<string>Clip Size Increases on Kill</string>
+		<string>Movement Speed Increases as the User Becomes Injured</string>
+		<string>Damage Increases as the User Becomes Injured</string>
+		<string>Transports the User to Pyroland</string>
+		<string>Does Not Require Ammo</string>
+		<string>+40% Projectile Speed</string>
+		<string>-25% Blast Damage</string>
+		<string>+25% Projectile Speed</string>
+	</array>
+</dict>
+</plist>
