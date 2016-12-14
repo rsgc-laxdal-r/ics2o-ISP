@@ -2,20 +2,724 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>goodstats</key>
-	<array>
+	<key>badStats</key>
+	<dict>
+		<key>New item</key>
+		<string>-70% explosion radius</string>
+		<key>New item - 2</key>
+		<string>No random critical hits</string>
+		<key>New item - 3</key>
+		<string>-66% afterburn damage penalty</string>
+		<key>New item - 4</key>
+		<string>+50% damage to self</string>
+		<key>New item - 5</key>
+		<string>-90% less healing from Medic sources</string>
+		<key>New item - 6</key>
+		<string>-25 max health on wearer</string>
+		<key>New item - 7</key>
+		<string>20% slower firing speed</string>
+		<key>New item - 8</key>
+		<string>Melts in fire, regenerates in 15 seconds </string>
+		<key>New item - 9</key>
+		<string>Turns victim to ice</string>
+		<key>New item - 10</key>
+		<string>Deals only 20% damage to buildings</string>
+		<key>New item - 11</key>
+		<string>Uses metal for ammo</string>
+		<key>New item - 12</key>
+		<string>Per Shot: -5 ammo</string>
+		<key>New item - 13</key>
+		<string>No headshots</string>
+		<key>New item - 14</key>
+		<string>Fires tracer rounds</string>
+		<key>New item - 15</key>
+		<string>Wearer cannot disguise</string>
+		<key>New item - 16</key>
+		<string>-100% damage penalty</string>
+		<key>New item - 17</key>
+		<string>Cannot fire unless zoomed</string>
+		<key>New item - 18</key>
+		<string>-20% damage penalty</string>
+		<key>New item - 19</key>
+		<string>-25% damage vs players</string>
+		<key>New item - 20</key>
+		<string>+150% airblast cost</string>
+		<key>New item - 21</key>
+		<string>Weapon spread increases as health decreases</string>
+		<key>New item - 22</key>
+		<string>20% damage vulnerability on wearer</string>
+		<key>New item - 23</key>
+		<string>-60% slower move speed while deployed</string>
+		<key>New item - 24</key>
+		<string>Only visible in Pyroland</string>
+		<key>New item - 25</key>
+		<string>50% slower spin up time</string>
+		<key>New item - 26</key>
+		<string>Critical hits do no damage</string>
+		<key>New item - 27</key>
+		<string>15% slower move speed on wearer</string>
+		<key>New item - 28</key>
+		<string>No airblast</string>
+		<key>New item - 29</key>
+		<string>-30% slower firing speed</string>
+		<key>New item - 30</key>
+		<string>+100% damage from melee sources while active</string>
+		<key>New item - 31</key>
+		<string>-75% health from healers on wearer</string>
+		<key>New item - 32</key>
+		<string>25% slower firing speed</string>
+		<key>New item - 33</key>
+		<string>-25% decrease in damage when health &gt;50% of max</string>
+		<key>New item - 34</key>
+		<string>-75% max primary ammo on wearer</string>
+		<key>New item - 35</key>
+		<string>-2 health drained per second on wearer</string>
+		<key>New item - 36</key>
+		<string>-50% clip size</string>
+		<key>New item - 37</key>
+		<string>Overloading the chamber will cause a misfire</string>
+		<key>New item - 38</key>
+		<string>No ammo from dispensers when active</string>
+		<key>New item - 39</key>
+		<string>-10% explosion radius</string>
+		<key>New item - 40</key>
+		<string>0.8 sec slower bomb arm time</string>
+	</dict>
+	<key>nouns</key>
+	<dict>
+		<key>New item</key>
+		<string>Bison</string>
+		<key>New item - 2</key>
+		<string>Strike</string>
+		<key>New item - 3</key>
+		<string>Resistance</string>
+		<key>New item - 4</key>
+		<string>Classic</string>
+		<key>New item - 5</key>
+		<string>Original</string>
+		<key>New item - 6</key>
+		<string>Enforcer</string>
+		<key>New item - 7</key>
+		<string>Heatmaker</string>
+		<key>New item - 8</key>
+		<string>Launcher</string>
+		<key>New item - 9</key>
+		<string>Jumper</string>
+		<key>New item - 10</key>
+		<string>Sandvich</string>
+		<key>New item - 11</key>
+		<string>Heater</string>
+		<key>New item - 12</key>
+		<string>Beast</string>
+		<key>New item - 13</key>
+		<string>Gloves of Boxing</string>
+		<key>New item - 14</key>
+		<string>Fists</string>
+		<key>New item - 15</key>
+		<string>Nature</string>
+		<key>New item - 16</key>
+		<string>Rifle</string>
+		<key>New item - 17</key>
+		<string>Etranger</string>
+		<key>New item - 18</key>
+		<string>Sleeper</string>
+		<key>New item - 19</key>
+		<string>Hit</string>
+		<key>New item - 20</key>
+		<string>Pistol</string>
+		<key>New item - 21</key>
+		<string>Winger</string>
+		<key>New item - 22</key>
+		<string>Justice</string>
+		<key>New item - 23</key>
+		<string>Hospitality</string>
+		<key>New item - 24</key>
+		<string>Wrench</string>
+		<key>New item - 25</key>
+		<string>Jag</string>
+		<key>New item - 26</key>
+		<string>Ambassador</string>
+		<key>New item - 27</key>
+		<string>Cannon</string>
+		<key>New item - 28</key>
+		<string>Turner</string>
+		<key>New item - 29</key>
+		<string>Saw</string>
+		<key>New item - 30</key>
+		<string>Crossbow</string>
+		<key>New item - 31</key>
+		<string>Compound</string>
+		<key>New item - 32</key>
+		<string>Jarate</string>
+		<key>New item - 33</key>
+		<string>Scattergun</string>
+		<key>New item - 34</key>
+		<string>Shotgun</string>
+		<key>New item - 35</key>
+		<string>Huntsman</string>
+		<key>New item - 36</key>
+		<string>Minigun</string>
+		<key>New item - 37</key>
+		<string>Krieg</string>
+		<key>New item - 38</key>
+		<string>Fix</string>
+		<key>New item - 39</key>
+		<string>Load</string>
+		<key>New item - 40</key>
+		<string>Mangler 3000</string>
+		<key>New item - 41</key>
+		<string>Blaster</string>
+		<key>New item - 42</key>
+		<string>Punch</string>
+		<key>New item - 43</key>
+		<string>Tomislav</string>
+		<key>New item - 44</key>
+		<string>Sapper</string>
+		<key>New item - 45</key>
+		<string>Treads</string>
+	</dict>
+	<key>adjectives</key>
+	<dict>
+		<key>New item</key>
+		<string>Scottish </string>
+		<key>New item - 2</key>
+		<string>Sydney </string>
+		<key>New item - 3</key>
+		<string>Air </string>
+		<key>New item - 4</key>
+		<string>Buffalo Steak </string>
+		<key>New item - 5</key>
+		<string>Huo-Long </string>
+		<key>New item - 6</key>
+		<string>Force-a-</string>
+		<key>New item - 7</key>
+		<string>Robo-</string>
+		<key>New item - 8</key>
+		<string>Direct </string>
+		<key>New item - 9</key>
+		<string>Sticky </string>
+		<key>New item - 10</key>
+		<string>Rocket </string>
+		<key>New item - 11</key>
+		<string>Sniper </string>
+		<key>New item - 12</key>
+		<string>Your Eternal </string>
+		<key>New item - 13</key>
+		<string>Sharpened Volcano </string>
+		<key>New item - 14</key>
+		<string>Fire </string>
+		<key>New item - 15</key>
+		<string>The </string>
+		<key>New item - 16</key>
+		<string>Back </string>
+		<key>New item - 17</key>
+		<string>Baby Face&apos;s </string>
+		<key>New item - 18</key>
+		<string>Pretty Boy&apos;s Pocket </string>
+		<key>New item - 19</key>
+		<string>Direct </string>
+		<key>New item - 20</key>
+		<string>Vita-</string>
+		<key>New item - 21</key>
+		<string>Uber</string>
+		<key>New item - 22</key>
+		<string>Flame </string>
+		<key>New item - 23</key>
+		<string></string>
+		<key>New item - 24</key>
+		<string>The Killing </string>
+		<key>New item - 25</key>
+		<string>L&apos;</string>
+		<key>New item - 26</key>
+		<string>Professional&apos;s </string>
+		<key>New item - 27</key>
+		<string>Battalion&apos;s </string>
+		<key>New item - 28</key>
+		<string>Righteous </string>
+		<key>New item - 29</key>
+		<string>Disciplinary</string>
+		<key>New item - 30</key>
+		<string>Scorch </string>
+		<key>New item - 31</key>
+		<string>Lolli</string>
+		<key>New item - 32</key>
+		<string>Postal </string>
+		<key>New item - 33</key>
+		<string>Neon</string>
+		<key>New item - 34</key>
+		<string>Loch-and-</string>
+		<key>New item - 35</key>
+		<string>Ali-Baba&apos;s Wee </string>
+		<key>New item - 36</key>
+		<string>Loose </string>
+		<key>New item - 37</key>
+		<string>Sticky </string>
+		<key>New item - 38</key>
+		<string>Splendid </string>
+		<key>New item - 39</key>
+		<string>Horseless Headless Horsemann&apos;s </string>
+		<key>New item - 40</key>
+		<string>Brass </string>
+		<key>New item - 41</key>
+		<string>Warrior&apos;s </string>
+		<key>New item - 42</key>
+		<string>Southern </string>
+		<key>New item - 43</key>
+		<string>Crusader&apos;s</string>
+		<key>New item - 44</key>
+		<string>Kritz</string>
+		<key>New item - 45</key>
+		<string>Über</string>
+	</dict>
+	<key>itemRanks</key>
+	<dict>
+		<key>New item</key>
+		<string></string>
+		<key>New item - 2</key>
+		<string></string>
+		<key>New item - 3</key>
+		<string></string>
+		<key>New item - 4</key>
+		<string></string>
+		<key>New item - 5</key>
+		<string></string>
+		<key>New item - 6</key>
+		<string></string>
+		<key>New item - 7</key>
+		<string></string>
+		<key>New item - 8</key>
+		<string></string>
+		<key>New item - 9</key>
+		<string></string>
+		<key>New item - 10</key>
+		<string></string>
+		<key>New item - 11</key>
+		<string></string>
+		<key>New item - 12</key>
+		<string></string>
+		<key>New item - 13</key>
+		<string></string>
+		<key>New item - 14</key>
+		<string></string>
+		<key>New item - 15</key>
+		<string></string>
+		<key>New item - 16</key>
+		<string></string>
+		<key>New item - 17</key>
+		<string></string>
+		<key>New item - 18</key>
+		<string></string>
+		<key>New item - 19</key>
+		<string></string>
+		<key>New item - 20</key>
+		<string></string>
+		<key>New item - 21</key>
+		<string></string>
+		<key>New item - 22</key>
+		<string></string>
+		<key>New item - 23</key>
+		<string></string>
+		<key>New item - 24</key>
+		<string></string>
+		<key>New item - 25</key>
+		<string></string>
+		<key>New item - 26</key>
+		<string></string>
+		<key>New item - 27</key>
+		<string></string>
+		<key>New item - 28</key>
+		<string></string>
+		<key>New item - 29</key>
+		<string></string>
+		<key>New item - 30</key>
+		<string></string>
+		<key>New item - 31</key>
+		<string></string>
+		<key>New item - 32</key>
+		<string></string>
+		<key>New item - 33</key>
+		<string></string>
+		<key>New item - 34</key>
+		<string></string>
+		<key>New item - 35</key>
+		<string></string>
+		<key>New item - 36</key>
+		<string></string>
+		<key>New item - 37</key>
+		<string></string>
+		<key>New item - 38</key>
+		<string></string>
+		<key>New item - 39</key>
+		<string></string>
+		<key>New item - 40</key>
+		<string></string>
+		<key>New item - 41</key>
+		<string></string>
+		<key>New item - 42</key>
+		<string></string>
+		<key>New item - 43</key>
+		<string></string>
+		<key>New item - 44</key>
+		<string></string>
+		<key>New item - 45</key>
+		<string></string>
+		<key>New item - 46</key>
+		<string></string>
+		<key>New item - 47</key>
+		<string></string>
+		<key>New item - 48</key>
+		<string></string>
+		<key>New item - 49</key>
+		<string></string>
+		<key>New item - 50</key>
+		<string></string>
+		<key>New item - 51</key>
+		<string></string>
+		<key>New item - 52</key>
+		<string></string>
+		<key>New item - 53</key>
+		<string></string>
+		<key>New item - 54</key>
+		<string></string>
+		<key>New item - 55</key>
+		<string></string>
+		<key>New item - 56</key>
+		<string></string>
+		<key>New item - 57</key>
+		<string></string>
+		<key>New item - 58</key>
+		<string></string>
+		<key>New item - 59</key>
+		<string></string>
+		<key>New item - 60</key>
+		<string></string>
+		<key>New item - 61</key>
+		<string>Strange 
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;&lt;/string&gt;
+&lt;/plist&gt;
+Strange</string>
+		<key>New item - 62</key>
+		<string>Strange 
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;&lt;/string&gt;
+&lt;/plist&gt;
+Strange</string>
+		<key>New item - 63</key>
+		<string>Strange 
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;&lt;/string&gt;
+&lt;/plist&gt;
+Strange</string>
+		<key>New item - 64</key>
+		<string>Strange 
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;&lt;/string&gt;
+&lt;/plist&gt;
+Strange</string>
+		<key>New item - 65</key>
+		<string>Strange 
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;&lt;/string&gt;
+&lt;/plist&gt;
+Strange</string>
+		<key>New item - 66</key>
+		<string>Strange 
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;&lt;/string&gt;
+&lt;/plist&gt;
+Strange</string>
+		<key>New item - 67</key>
+		<string>Strange 
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;&lt;/string&gt;
+&lt;/plist&gt;
+Strange</string>
+		<key>New item - 68</key>
+		<string>Strange 
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;&lt;/string&gt;
+&lt;/plist&gt;
+Strange</string>
+		<key>New item - 69</key>
+		<string>Strange 
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;&lt;/string&gt;
+&lt;/plist&gt;
+Strange</string>
+		<key>New item - 70</key>
+		<string>Strange 
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;&lt;/string&gt;
+&lt;/plist&gt;
+Strange</string>
+		<key>New item - 71</key>
+		<string>Strange 
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;&lt;/string&gt;
+&lt;/plist&gt;
+Strange</string>
+		<key>New item - 72</key>
+		<string>Strange 
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;&lt;/string&gt;
+&lt;/plist&gt;
+Strange</string>
+		<key>New item - 73</key>
+		<string>Strange 
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;&lt;/string&gt;
+&lt;/plist&gt;
+Strange</string>
+		<key>New item - 74</key>
+		<string>Strange 
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;&lt;/string&gt;
+&lt;/plist&gt;
+Strange</string>
+		<key>New item - 75</key>
+		<string>Strange 
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;&lt;/string&gt;
+&lt;/plist&gt;
+Strange</string>
+		<key>New item - 76</key>
+		<string>Strange 
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;&lt;/string&gt;
+&lt;/plist&gt;
+Strange</string>
+		<key>New item - 77</key>
+		<string>Strange 
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;&lt;/string&gt;
+&lt;/plist&gt;
+Strange</string>
+		<key>New item - 78</key>
+		<string>Strange 
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;&lt;/string&gt;
+&lt;/plist&gt;
+Strange</string>
+		<key>New item - 79</key>
+		<string>Strange 
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;&lt;/string&gt;
+&lt;/plist&gt;
+Strange</string>
+		<key>New item - 80</key>
+		<string>Strange 
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;&lt;/string&gt;
+&lt;/plist&gt;
+Strange</string>
+		<key>New item - 81</key>
+		<string>Genuine </string>
+		<key>New item - 82</key>
+		<string>Genuine </string>
+		<key>New item - 83</key>
+		<string>Genuine </string>
+		<key>New item - 84</key>
+		<string>Genuine </string>
+		<key>New item - 85</key>
+		<string>Genuine </string>
+		<key>New item - 86</key>
+		<string>Genuine </string>
+		<key>New item - 87</key>
+		<string>Genuine </string>
+		<key>New item - 88</key>
+		<string>Genuine </string>
+		<key>New item - 89</key>
+		<string>Genuine </string>
+		<key>New item - 90</key>
+		<string>Genuine </string>
+		<key>New item - 91</key>
+		<string>Vintage </string>
+		<key>New item - 92</key>
+		<string>Vintage </string>
+		<key>New item - 93</key>
+		<string>Vintage </string>
+		<key>New item - 94</key>
+		<string>Vintage </string>
+		<key>New item - 95</key>
+		<string>Vintage </string>
+		<key>New item - 96</key>
+		<string>Vintage </string>
+		<key>New item - 97</key>
+		<string>Unsual </string>
+		<key>New item - 98</key>
+		<string>Unsual </string>
+		<key>New item - 99</key>
+		<string>Unsual </string>
+		<key>New item - 100</key>
+		<string>Collector&apos;s </string>
+	</dict>
+	<key>goodStats</key>
+	<dict>
+		<key>New item</key>
+		<string>On Scoped Hit: Jarate target for 2 to 8 seconds based on amount charged </string>
+		<key>New item - 2</key>
+		<string>Headshots or fully charged shots cause an explosion of Jarate. </string>
+		<key>New item - 3</key>
+		<string>+25% charge rate </string>
+		<key>New item - 4</key>
+		<string>+30% cloak on kill </string>
+		<key>New item - 5</key>
+		<string>+25% increase in damage when health &lt;50% of max </string>
+		<key>New item - 6</key>
+		<string>Crits whenever it would normally mini-crit </string>
+		<key>New item - 7</key>
+		<string>Gain a speed boost on kill </string>
+		<key>New item - 8</key>
+		<string>+20% damage bonus while disguised </string>
+		<key>New item - 9</key>
+		<string>Attacks pierce damage resistance effects and bonuses </string>
+		<key>New item - 10</key>
+		<string>Flare knocks back target on hit and explodes when it hits the ground</string>
+		<key>New item - 11</key>
+		<string>On Hit: Bleed for 5 Seconds</string>
+		<key>New item - 12</key>
+		<string>Alt-Fire: Launches a Festive Ornament that Shatters Causing Bleed</string>
+		<key>New item - 13</key>
+		<string>Increased knockback on burning players</string>
+		<key>New item - 14</key>
+		<string>100% mini-crits vs burning players 
+</string>
+		<key>New item - 15</key>
+		<string>Throw at Your Enemy to Make Them Bleed!</string>
+		<key>New item - 16</key>
+		<string>Long Range Hits Cause Mini-Crits</string>
+		<key>New item - 17</key>
+		<string>Wearer Never Takes Falling Damage</string>
+		<key>New item - 18</key>
+		<string>Each scoped headshot kill increases the weapon&apos;s charge rate by 25% up to 200%.</string>
+		<key>New item - 19</key>
+		<string>Charge and fire shots independent of zoom </string>
+		<key>New item - 20</key>
+		<string>Gives one guaranteed critical hit for each building destroyed with your sapper attached or backstab kill</string>
+		<key>New item - 21</key>
+		<string>Mini-crits targets launched airborne by explosions, grapple hooks or enemy attacks</string>
+		<key>New item - 22</key>
+		<string>On Hit: Builds Boost</string>
+		<key>New item - 23</key>
+		<string>+25% Greater Jump Height When Active</string>
+		<key>New item - 24</key>
+		<string>Grants Triple Jump: The Third Jump Deals 10 Damage when used.</string>
+		<key>New item - 25</key>
+		<string>Alt-Fire: Lauches a Ball that Stuns Players </string>
+		<key>New item - 26</key>
+		<string>On Hit: Cause Target to Bleed</string>
+		<key>New item - 27</key>
+		<string>On Kill: A Small Health Pack is Dropped</string>
+		<key>New item - 28</key>
+		<string>On Hit: Generates Hype</string>
+		<key>New item - 29</key>
 		<string>Critical Hits on Burning Players</string>
+		<key>New item - 30</key>
 		<string>On Hit: Target is Engulfed in Flames</string>
+		<key>New item - 31</key>
 		<string>On Hit: Gain up to +25 Health</string>
+		<key>New item - 32</key>
 		<string>Increased Damage While in Mid-Air</string>
+		<key>New item - 33</key>
 		<string>Clip Size Increases on Kill</string>
+		<key>New item - 34</key>
 		<string>Movement Speed Increases as the User Becomes Injured</string>
+		<key>New item - 35</key>
 		<string>Damage Increases as the User Becomes Injured</string>
+		<key>New item - 36</key>
 		<string>Transports the User to Pyroland</string>
+		<key>New item - 37</key>
 		<string>Does Not Require Ammo</string>
+		<key>New item - 38</key>
 		<string>+40% Projectile Speed</string>
+		<key>New item - 39</key>
 		<string>-25% Blast Damage</string>
+		<key>New item - 40</key>
 		<string>+25% Projectile Speed</string>
-	</array>
+	</dict>
+	<key>types</key>
+	<dict>
+		<key>New item</key>
+		<string>Rocket Launcher</string>
+		<key>New item - 2</key>
+		<string>Shotgun</string>
+		<key>New item - 3</key>
+		<string>Scattergun</string>
+		<key>New item - 4</key>
+		<string>Pistol</string>
+		<key>New item - 5</key>
+		<string>Bat</string>
+		<key>New item - 6</key>
+		<string>Shovel</string>
+		<key>New item - 7</key>
+		<string>Flamethrower</string>
+		<key>New item - 8</key>
+		<string>Axe</string>
+		<key>New item - 9</key>
+		<string>Flare Gun</string>
+		<key>New item - 10</key>
+		<string>Grenade Launcher</string>
+		<key>New item - 11</key>
+		<string>Stickybomb Launcher</string>
+		<key>New item - 12</key>
+		<string>Bottle</string>
+		<key>New item - 13</key>
+		<string>Sword</string>
+		<key>New item - 14</key>
+		<string>Minigun</string>
+		<key>New item - 15</key>
+		<string>Fists</string>
+		<key>New item - 16</key>
+		<string>Lunch Box</string>
+		<key>New item - 17</key>
+		<string>Wrench</string>
+		<key>New item - 18</key>
+		<string>PDA</string>
+		<key>New item - 19</key>
+		<string>Robot Arm</string>
+		<key>New item - 20</key>
+		<string>Syringe Gun</string>
+		<key>New item - 21</key>
+		<string>Medi Gun</string>
+		<key>New item - 22</key>
+		<string>Sniper Rifle</string>
+		<key>New item - 23</key>
+		<string>Submachine Gun</string>
+		<key>New item - 24</key>
+		<string>Kukri</string>
+		<key>New item - 25</key>
+		<string>Knife</string>
+		<key>New item - 26</key>
+		<string>Revolver</string>
+		<key>New item - 27</key>
+		<string>Sapper</string>
+		<key>New item - 28</key>
+		<string>Watch</string>
+		<key>New item - 29</key>
+		<string>Boxing Gloves</string>
+		<key>New item - 30</key>
+		<string>Non-Milk Substance</string>
+	</dict>
 </dict>
 </plist>

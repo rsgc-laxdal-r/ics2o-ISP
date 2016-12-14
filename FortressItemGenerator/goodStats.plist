@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>goodStats</key>
+	<dict>
+		<key>New item</key>
+		<string>On Scoped Hit: Jarate target for 2 to 8 seconds based on amount charged </string>
+		<key>New item - 2</key>
+		<string>Headshots or fully charged shots cause an explosion of Jarate. </string>
+		<key>New item - 3</key>
+		<string>+25% charge rate </string>
+		<key>New item - 4</key>
+		<string>+30% cloak on kill </string>
+		<key>New item - 5</key>
+		<string>+25% increase in damage when health &lt;50% of max </string>
+		<key>New item - 6</key>
+		<string>Crits whenever it would normally mini-crit </string>
+		<key>New item - 7</key>
+		<string>Gain a speed boost on kill </string>
+		<key>New item - 8</key>
+		<string>+20% damage bonus while disguised </string>
+		<key>New item - 9</key>
+		<string>Attacks pierce damage resistance effects and bonuses </string>
+		<key>New item - 10</key>
+		<string>Flare knocks back target on hit and explodes when it hits the ground</string>
+		<key>New item - 11</key>
+		<string>On Hit: Bleed for 5 Seconds</string>
+		<key>New item - 12</key>
+		<string>Alt-Fire: Launches a Festive Ornament that Shatters Causing Bleed</string>
+		<key>New item - 13</key>
+		<string>Increased knockback on burning players</string>
+		<key>New item - 14</key>
+		<string>100% mini-crits vs burning players 
+</string>
+		<key>New item - 15</key>
+		<string>Throw at Your Enemy to Make Them Bleed!</string>
+		<key>New item - 16</key>
+		<string>Long Range Hits Cause Mini-Crits</string>
+		<key>New item - 17</key>
+		<string>Wearer Never Takes Falling Damage</string>
+		<key>New item - 18</key>
+		<string>Each scoped headshot kill increases the weapon&apos;s charge rate by 25% up to 200%.</string>
+		<key>New item - 19</key>
+		<string>Charge and fire shots independent of zoom </string>
+		<key>New item - 20</key>
+		<string>Gives one guaranteed critical hit for each building destroyed with your sapper attached or backstab kill</string>
+		<key>New item - 21</key>
+		<string>Mini-crits targets launched airborne by explosions, grapple hooks or enemy attacks</string>
+		<key>New item - 22</key>
+		<string>On Hit: Builds Boost</string>
+		<key>New item - 23</key>
+		<string>+25% Greater Jump Height When Active</string>
+		<key>New item - 24</key>
+		<string>Grants Triple Jump: The Third Jump Deals 10 Damage when used.</string>
+		<key>New item - 25</key>
+		<string>Alt-Fire: Lauches a Ball that Stuns Players </string>
+		<key>New item - 26</key>
+		<string>On Hit: Cause Target to Bleed</string>
+		<key>New item - 27</key>
+		<string>On Kill: A Small Health Pack is Dropped</string>
+		<key>New item - 28</key>
+		<string>On Hit: Generates Hype</string>
+		<key>New item - 29</key>
+		<string>Critical Hits on Burning Players</string>
+		<key>New item - 30</key>
+		<string>On Hit: Target is Engulfed in Flames</string>
+		<key>New item - 31</key>
+		<string>On Hit: Gain up to +25 Health</string>
+		<key>New item - 32</key>
+		<string>Increased Damage While in Mid-Air</string>
+		<key>New item - 33</key>
+		<string>Clip Size Increases on Kill</string>
+		<key>New item - 34</key>
+		<string>Movement Speed Increases as the User Becomes Injured</string>
+		<key>New item - 35</key>
+		<string>Damage Increases as the User Becomes Injured</string>
+		<key>New item - 36</key>
+		<string>Transports the User to Pyroland</string>
+		<key>New item - 37</key>
+		<string>Does Not Require Ammo</string>
+		<key>New item - 38</key>
+		<string>+40% Projectile Speed</string>
+		<key>New item - 39</key>
+		<string>-25% Blast Damage</string>
+		<key>New item - 40</key>
+		<string>+25% Projectile Speed</string>
+	</dict>
+</dict>
+</plist>
