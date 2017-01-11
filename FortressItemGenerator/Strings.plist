@@ -577,7 +577,7 @@ Strange</string>
 	<key>goodStats</key>
 	<dict>
 		<key>New item</key>
-		<string>On Scoped Hit: Jarate target for 2 to 8 seconds based on amount charged </string>
+		<string>On Scoped Hit: Jarate target for 2 to 8 seconds based on amount charge </string>
 		<key>New item - 2</key>
 		<string>Headshots or fully charged shots cause an explosion of Jarate. </string>
 		<key>New item - 3</key>
