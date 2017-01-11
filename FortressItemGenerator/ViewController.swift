@@ -12,13 +12,14 @@ class ViewController: UIViewController {
     
     
     @IBOutlet weak var roundedCornerButton: UIButton!
-   
+    
     
     
     @IBOutlet weak var fullNameLabel: UILabel!
     @IBOutlet weak var levelAndWeaponLabel: UILabel!
     @IBOutlet weak var goodLabel: UILabel!
     @IBOutlet weak var badLabel: UILabel!
+    @IBOutlet weak var UnusualLabel: UILabel!
     
     var itemType: [String] = []
     var weapon: [String] = []
@@ -26,7 +27,8 @@ class ViewController: UIViewController {
     var adjective: [String] = []
     var goodStats: [String] = []
     var badStats: [String] = []
-   
+    var unusualEffect: [String] = []
+    
     
     
     override func viewDidLoad() {
@@ -358,15 +360,146 @@ class ViewController: UIViewController {
         badStats.append("0.8 slower bomb arm time")
         badStats.append("On miss: Hit yourself. Idiot.")
         
+        // Unusual Effects
         
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    @IBAction func pressDaButton(_ sender: Any) {
+        //Series 1
+        unusualEffect.append("Burning Flames")
+        unusualEffect.append("Circling Heart")
+        unusualEffect.append("Circling Peace Sign")
+        unusualEffect.append("Circling TF Logo")
+        unusualEffect.append("Green Confetti")
+        unusualEffect.append("Green Energy")
+        unusualEffect.append("Haunted Ghosts")
+        unusualEffect.append("Massed Flies")
+        unusualEffect.append("Purple Confetti")
+        unusualEffect.append("Purple Energy")
+        unusualEffect.append("Scorching Flames")
+        unusualEffect.append("Searing Plasma")
+        unusualEffect.append("Sunbeams")
+        unusualEffect.append("Vivid Plasma")
+        //Series 1 (2x chance of appearing)
+        unusualEffect.append("Burning Flames")
+        unusualEffect.append("Circling Heart")
+        unusualEffect.append("Circling Peace Sign")
+        unusualEffect.append("Circling TF Logo")
+        unusualEffect.append("Green Confetti")
+        unusualEffect.append("Green Energy")
+        unusualEffect.append("Haunted Ghosts")
+        unusualEffect.append("Massed Flies")
+        unusualEffect.append("Purple Confetti")
+        unusualEffect.append("Purple Energy")
+        unusualEffect.append("Scorching Flames")
+        unusualEffect.append("Searing Plasma")
+        unusualEffect.append("Sunbeams")
+        unusualEffect.append("Vivid Plasma")
+        // Series 2
+        unusualEffect.append("Blizzardy Storm")
+        unusualEffect.append("Bubbling")
+        unusualEffect.append("Nuts n' Bolts")
+        unusualEffect.append("Orbiting Fire")
+        unusualEffect.append("Orbiting Planets")
+        unusualEffect.append("Smoking")
+        unusualEffect.append("Steaming")
+        unusualEffect.append("Stormy Storm")
+        // Series 2 (x2)
+        unusualEffect.append("Blizzardy Storm")
+        unusualEffect.append("Bubbling")
+        unusualEffect.append("Nuts n' Bolts")
+        unusualEffect.append("Orbiting Fire")
+        unusualEffect.append("Orbiting Planets")
+        unusualEffect.append("Smoking")
+        unusualEffect.append("Steaming")
+        unusualEffect.append("Stormy Storm")
+        // Series 3
+        unusualEffect.append("Aces High")
+        unusualEffect.append("Cloud 9")
+        unusualEffect.append("Dead Presidents")
+        unusualEffect.append("Disco Beat Down")
+        unusualEffect.append("Kill-a-Watt")
+        unusualEffect.append("Miami Nights")
+        unusualEffect.append("Terror-Watt")
+        // Series 3 (x2)
+        unusualEffect.append("Aces High")
+        unusualEffect.append("Cloud 9")
+        unusualEffect.append("Dead Presidents")
+        unusualEffect.append("Disco Beat Down")
+        unusualEffect.append("Kill-a-Watt")
+        unusualEffect.append("Miami Nights")
+        unusualEffect.append("Terror-Watt")
+        // Very Scary
+        unusualEffect.append("Cauldron Bubbles")
+        unusualEffect.append("Cloudy Moon")
+        unusualEffect.append("Eerie Orbiting Fire")
+        unusualEffect.append("Flaming Lantern")
+        // Spectral
+        unusualEffect.append("Harvest Moon")
+        unusualEffect.append("It's a Secret to Everybody")
+        unusualEffect.append("Knifestorm")
+        unusualEffect.append("Misty Skull")
+        unusualEffect.append("Stormy 13th Hour")
+        // SF 2013
+        unusualEffect.append("Arcana")
+        unusualEffect.append("Chiroptera Venenata")
+        unusualEffect.append("Darkblaze")
+        unusualEffect.append("Demonflame")
+        unusualEffect.append("Hellfire")
+        unusualEffect.append("Poisoned Shadows")
+        unusualEffect.append("Something Burning This Way Comes")
+        unusualEffect.append("Spellbound")
+        // SF 2014
+        unusualEffect.append("Amaranthine")
+        unusualEffect.append("Bonzo the All-Gnawing")
+        unusualEffect.append("Ghastly Ghosts Jr.")
+        unusualEffect.append("Haunted Phantasm Jr.")
+        unusualEffect.append("Stare From Beyond")
+        unusualEffect.append("Ooze")
+        // SF 2015
+        unusualEffect.append("Death by Disco")
+        unusualEffect.append("It's a Mystery to Everybody")
+        unusualEffect.append("It's a Puzzle to Me")
+        unusualEffect.append("Ether Trail")
+        unusualEffect.append("Nether Trail")
+        unusualEffect.append("Ancient Eldritch")
+        unusualEffect.append("Eldritch Flame")
+        //SF 2016
+        unusualEffect.append("Neutron Star")
+        unusualEffect.append("Starstorm Slumber")
+        unusualEffect.append("Starstrom Slumber")
+        unusualEffect.append("Tesla Coil")
+        // Robotic Boogaloo
+        unusualEffect.append("Anti-Freeze")
+        unusualEffect.append("Electrostatic")
+        unusualEffect.append("Green Black Hole")
+        unusualEffect.append("Memory Leak")
+        unusualEffect.append("Overclocked")
+        unusualEffect.append("Phosphorous")
+        unusualEffect.append("Power Surge")
+        unusualEffect.append("Roboactive")
+        unusualEffect.append("Sulphurous")
+        unusualEffect.append("Time Warp")
+        // End of the Line
+        unusualEffect.append("Death at Dusk")
+        unusualEffect.append("Frostbite")
+        unusualEffect.append("Molten Mallard")
+        unusualEffect.append("Morning Glory")
+        // Gun Mettle
+        unusualEffect.append("Isotope")
+        unusualEffect.append("Hot")
+        unusualEffect.append("Cool")
+        unusualEffect.append("Energy Orb")
+        // Invasion
+        unusualEffect.append("Abduction")
+        unusualEffect.append("Atomic")
+        unusualEffect.append("Subatomic")
+        unusualEffect.append("Electric Hat Protector")
+        unusualEffect.append("Magnetic Hat Protector")
+        unusualEffect.append("Voltaic Hat Protector")
+        unusualEffect.append("Galactic Codex")
+        unusualEffect.append("Anchiet Codex")
+        unusualEffect.append("Nebula")
+        
+        
+        
         let randomType = itemType[Int(arc4random_uniform(UInt32(itemType.count)))]
         let randomAdjective = adjective[Int(arc4random_uniform(UInt32(adjective.count)))]
         let randomNoun = noun[Int(arc4random_uniform(UInt32(noun.count)))]
@@ -374,9 +507,11 @@ class ViewController: UIViewController {
         let randomGood = goodStats[Int(arc4random_uniform(UInt32(goodStats.count)))]
         let randomBad = badStats[Int(arc4random_uniform(UInt32(badStats.count)))]
         let randomWeapon = weapon[Int(arc4random_uniform(UInt32(weapon.count)))]
+        let randomUnusualEffect = unusualEffect[Int(arc4random_uniform(UInt32(unusualEffect.count)))]
         
         let randomName = "\(randomType) \(randomAdjective) \(randomNoun)"
         let levelAndType = "Level \(String(arc4random_uniform(100))) \(randomWeapon)"
+        let unusual = "★ Unusual Effect: \(randomUnusualEffect)"
         
         fullNameLabel.text = randomName
         levelAndWeaponLabel.text = levelAndType
@@ -394,10 +529,67 @@ class ViewController: UIViewController {
             fullNameLabel.textColor = UIColor(red:0.53, green:0.31, blue:0.67, alpha:1.0)
         } else if randomName.contains("Collector's") {
             fullNameLabel.textColor = UIColor(red:0.67, green:0.00, blue:0.00, alpha:1.0)
-        }else if randomName.contains(" ") {
+        } else {
             fullNameLabel.textColor = UIColor(red:1.00, green:0.84, blue:0.00, alpha:1.0)
-}
+        }
+        
+        if randomName.contains("unusual") {
+            UnusualLabel.text = unusual
+        } else {
+            UnusualLabel.text = ""
+        }
+        
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func pressDaButton(_ sender: Any) {
+        let randomType = itemType[Int(arc4random_uniform(UInt32(itemType.count)))]
+        let randomAdjective = adjective[Int(arc4random_uniform(UInt32(adjective.count)))]
+        let randomNoun = noun[Int(arc4random_uniform(UInt32(noun.count)))]
+        
+        let randomGood = goodStats[Int(arc4random_uniform(UInt32(goodStats.count)))]
+        let randomBad = badStats[Int(arc4random_uniform(UInt32(badStats.count)))]
+        let randomWeapon = weapon[Int(arc4random_uniform(UInt32(weapon.count)))]
+        let randomUnusualEffect = unusualEffect[Int(arc4random_uniform(UInt32(unusualEffect.count)))]
+        
+        let randomName = "\(randomType) \(randomAdjective) \(randomNoun)"
+        let levelAndType = "Level \(String(arc4random_uniform(100))) \(randomWeapon)"
+        let unusual = "★ Unusual Effect: \(randomUnusualEffect)"
+        
+        
+        fullNameLabel.text = randomName
+        levelAndWeaponLabel.text = levelAndType
+        goodLabel.text = randomGood
+        badLabel.text = randomBad
+        
+        
+        if randomName.contains("Strange") {
+            
+            fullNameLabel.textColor = UIColor(red:0.81, green:0.42, blue:0.20, alpha:1.0)
+        } else if randomName.contains("Genuine") {
+            fullNameLabel.textColor = UIColor(red:0.30, green:0.45, blue:0.33, alpha:1.0)
+        } else if randomName.contains("Vintage") {
+            fullNameLabel.textColor = UIColor(red:0.28, green:0.38, blue:0.57, alpha:1.0)
+        } else if randomName.contains("Unusual") {
+            fullNameLabel.textColor = UIColor(red:0.53, green:0.31, blue:0.67, alpha:1.0)
+        } else if randomName.contains("Collector's") {
+            fullNameLabel.textColor = UIColor(red:0.67, green:0.00, blue:0.00, alpha:1.0)
+        } else {
+            fullNameLabel.textColor = UIColor(red:1.00, green:0.84, blue:0.00, alpha:1.0)
+        }
+        
+        if randomName.contains("Unusual") {
+                UnusualLabel.text = unusual
+            } else {
+                UnusualLabel.text = ""
+            }
+            
+        }
+        
+    }
+    
 
-}
-
-}
