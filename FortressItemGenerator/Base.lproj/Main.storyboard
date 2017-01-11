@@ -66,7 +66,7 @@
                                     <color key="titleColor" red="0.85098039215686272" green="0.81960784313725488" blue="0.70980392156862748" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="generateNew:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yIv-cc-bIK"/>
+                                    <action selector="pressDaButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ooi-yC-xf5"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is a Positive Stat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="fFf-Tw-U5m">

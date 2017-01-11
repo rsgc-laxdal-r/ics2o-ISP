@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     
     
     @IBOutlet weak var roundedCornerButton: UIButton!
-    @IBOutlet weak var roundedCornerButton2: UIButton!
+   
     
     
     @IBOutlet weak var fullNameLabel: UILabel!
@@ -358,6 +358,15 @@ class ViewController: UIViewController {
         badStats.append("0.8 slower bomb arm time")
         badStats.append("On miss: Hit yourself. Idiot.")
         
+        
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func pressDaButton(_ sender: Any) {
         let randomType = itemType[Int(arc4random_uniform(UInt32(itemType.count)))]
         let randomAdjective = adjective[Int(arc4random_uniform(UInt32(adjective.count)))]
         let randomNoun = noun[Int(arc4random_uniform(UInt32(noun.count)))]
@@ -368,21 +377,27 @@ class ViewController: UIViewController {
         
         let randomName = "\(randomType) \(randomAdjective) \(randomNoun)"
         let levelAndType = "Level \(String(arc4random_uniform(100))) \(randomWeapon)"
-
+        
         fullNameLabel.text = randomName
         levelAndWeaponLabel.text = levelAndType
         goodLabel.text = randomGood
         badLabel.text = randomBad
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    
-    
-    
-    
+        
+        if randomName.contains("Strange") {
+            
+            fullNameLabel.textColor = UIColor(red:0.81, green:0.42, blue:0.20, alpha:1.0)
+        } else if randomName.contains("Genuine") {
+            fullNameLabel.textColor = UIColor(red:0.30, green:0.45, blue:0.33, alpha:1.0)
+        } else if randomName.contains("Vintage") {
+            fullNameLabel.textColor = UIColor(red:0.28, green:0.38, blue:0.57, alpha:1.0)
+        } else if randomName.contains("Unusual") {
+            fullNameLabel.textColor = UIColor(red:0.53, green:0.31, blue:0.67, alpha:1.0)
+        } else if randomName.contains("Collector's") {
+            fullNameLabel.textColor = UIColor(red:0.67, green:0.00, blue:0.00, alpha:1.0)
+        }else if randomName.contains(" ") {
+            fullNameLabel.textColor = UIColor(red:1.00, green:0.84, blue:0.00, alpha:1.0)
 }
 
+}
+
+}
