@@ -87,8 +87,10 @@
                         <color key="backgroundColor" red="0.12156862745098039" green="0.10980392156862745" blue="0.10196078431372549" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
-                        <outlet property="fullNameLabel" destination="LMA-Bx-TfL" id="91C-Ot-067"/>
-                        <outlet property="name" destination="LMA-Bx-TfL" id="23m-iD-KHo"/>
+                        <outlet property="badLabel" destination="y5Z-nX-dPc" id="NMW-kB-eto"/>
+                        <outlet property="fullNameLabel" destination="LMA-Bx-TfL" id="xhZ-Rz-d1D"/>
+                        <outlet property="goodLabel" destination="fFf-Tw-U5m" id="gBb-IO-ROe"/>
+                        <outlet property="levelAndWeaponLabel" destination="5YN-m7-gzf" id="r8n-gO-9Nm"/>
                         <outlet property="roundedCornerButton" destination="7E7-Gm-I1Q" id="MDF-zF-Mnz"/>
                     </connections>
                 </viewController>

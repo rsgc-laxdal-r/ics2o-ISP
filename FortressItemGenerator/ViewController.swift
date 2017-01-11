@@ -13,7 +13,13 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var roundedCornerButton: UIButton!
     @IBOutlet weak var roundedCornerButton2: UIButton!
+    
+    
     @IBOutlet weak var fullNameLabel: UILabel!
+    @IBOutlet weak var levelAndWeaponLabel: UILabel!
+    @IBOutlet weak var goodLabel: UILabel!
+    @IBOutlet weak var badLabel: UILabel!
+    
     var itemType: [String] = []
     var weapon: [String] = []
     var noun: [String] = []
@@ -358,23 +364,25 @@ class ViewController: UIViewController {
         
         let randomGood = goodStats[Int(arc4random_uniform(UInt32(goodStats.count)))]
         let randomBad = badStats[Int(arc4random_uniform(UInt32(badStats.count)))]
+        let randomWeapon = weapon[Int(arc4random_uniform(UInt32(weapon.count)))]
         
         let randomName = "\(randomType) \(randomAdjective) \(randomNoun)"
+        let levelAndType = "Level \(String(arc4random_uniform(100))) \(randomWeapon)"
 
-
-
+        fullNameLabel.text = randomName
+        levelAndWeaponLabel.text = levelAndType
+        goodLabel.text = randomGood
+        badLabel.text = randomBad
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    @IBOutlet weak var name: UILabel!
     
-    @IBAction func generateNew(_ sender: Any) {
-        
-       
-    }
+    
+    
+    
     
 }
 
