@@ -145,8 +145,328 @@ class ViewController: UIViewController {
         itemType.append("Unusual")
         itemType.append("Unusual")
         itemType.append("Unusual")
+        // Picks item type 'Collector's' with a 0.75% chance.
+        itemType.append("Collector's") //100! :D
+        
+        // 2nd, 3rd, and 4th row of itemtypes, because there will be another type with a special, hyper rare quality, with a 0.25% chance.
+        
+        itemType.append("") //1
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("") //10
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("") //20
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("") //30
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("") //40
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("") //50
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("") //60
+        // Pick item type "Strange' with a 20% chance
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange") //70
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange") //80
+        // Picks item type 'genuine' with a 10% chance
+        itemType.append("Genuine")
+        itemType.append("Genuine")
+        itemType.append("Genuine")
+        itemType.append("Genuine")
+        itemType.append("Genuine")
+        itemType.append("Genuine")
+        itemType.append("Genuine")
+        itemType.append("Genuine")
+        itemType.append("Genuine")
+        itemType.append("Genuine") //90
+        // Picks item type 'vintage' with a 6% chance.
+        itemType.append("Vintage")
+        itemType.append("Vintage")
+        itemType.append("Vintage")
+        itemType.append("Vintage")
+        itemType.append("Vintage")
+        itemType.append("Vintage")
+        // Picks item type 'Unusual' with a 3% chance.
+        itemType.append("Unusual")
+        itemType.append("Unusual")
+        itemType.append("Unusual")
         // Picks item type 'Collector's' with a 1% chance.
         itemType.append("Collector's") //100! :D
+        
+        itemType.append("") //1
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("") //10
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("") //20
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("") //30
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("") //40
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("") //50
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("") //60
+        // Pick item type "Strange' with a 20% chance
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange") //70
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange") //80
+        // Picks item type 'genuine' with a 10% chance
+        itemType.append("Genuine")
+        itemType.append("Genuine")
+        itemType.append("Genuine")
+        itemType.append("Genuine")
+        itemType.append("Genuine")
+        itemType.append("Genuine")
+        itemType.append("Genuine")
+        itemType.append("Genuine")
+        itemType.append("Genuine")
+        itemType.append("Genuine") //90
+        // Picks item type 'vintage' with a 6% chance.
+        itemType.append("Vintage")
+        itemType.append("Vintage")
+        itemType.append("Vintage")
+        itemType.append("Vintage")
+        itemType.append("Vintage")
+        itemType.append("Vintage")
+        // Picks item type 'Unusual' with a 3% chance.
+        itemType.append("Unusual")
+        itemType.append("Unusual")
+        itemType.append("Unusual")
+        // Picks item type 'Collector's' with a 1% chance.
+        itemType.append("Collector's") //100! :D
+        
+        itemType.append("") //1
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("") //10
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("") //20
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("") //30
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("") //40
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("") //50
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("")
+        itemType.append("") //60
+        // Pick item type "Strange' with a 20% chance
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange") //70
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange")
+        itemType.append("Strange") //80
+        // Picks item type 'genuine' with a 10% chance
+        itemType.append("Genuine")
+        itemType.append("Genuine")
+        itemType.append("Genuine")
+        itemType.append("Genuine")
+        itemType.append("Genuine")
+        itemType.append("Genuine")
+        itemType.append("Genuine")
+        itemType.append("Genuine")
+        itemType.append("Genuine")
+        itemType.append("Genuine") //90
+        // Picks item type 'vintage' with a 6% chance.
+        itemType.append("Vintage")
+        itemType.append("Vintage")
+        itemType.append("Vintage")
+        itemType.append("Vintage")
+        itemType.append("Vintage")
+        itemType.append("Vintage")
+        // Picks item type 'Unusual' with a 3% chance.
+        itemType.append("Unusual")
+        itemType.append("Unusual")
+        itemType.append("Unusual")
+        // Picks item type 'Valve' with a 0.25% chance.
+        itemType.append("Valve") //100! :D
         
         // Weapon Picker. This will go below the item's name, along side it's level.
         weapon.append("Rocket Launcher")
@@ -498,7 +818,7 @@ class ViewController: UIViewController {
         unusualEffect.append("Anchiet Codex")
         unusualEffect.append("Nebula")
         
-        
+        // Now the stuff that makes this work :D
         
         let randomType = itemType[Int(arc4random_uniform(UInt32(itemType.count)))]
         let randomAdjective = adjective[Int(arc4random_uniform(UInt32(adjective.count)))]
@@ -529,13 +849,19 @@ class ViewController: UIViewController {
             fullNameLabel.textColor = UIColor(red:0.53, green:0.31, blue:0.67, alpha:1.0)
         } else if randomName.contains("Collector's") {
             fullNameLabel.textColor = UIColor(red:0.67, green:0.00, blue:0.00, alpha:1.0)
-        } else {
+        } else if randomName.contains("Valve") {
+            fullNameLabel.textColor = UIColor(red:0.65, green:0.06, blue:0.47, alpha:1.0)
+        }
+        else {
             fullNameLabel.textColor = UIColor(red:1.00, green:0.84, blue:0.00, alpha:1.0)
         }
         
         if randomName.contains("unusual") {
             UnusualLabel.text = unusual
-        } else {
+        } else if randomName.contains("Valve") {
+            UnusualLabel.text = "★ Unusual Effect: Flying Bits"
+        }
+        else {
             UnusualLabel.text = ""
         }
         
@@ -578,18 +904,22 @@ class ViewController: UIViewController {
             fullNameLabel.textColor = UIColor(red:0.53, green:0.31, blue:0.67, alpha:1.0)
         } else if randomName.contains("Collector's") {
             fullNameLabel.textColor = UIColor(red:0.67, green:0.00, blue:0.00, alpha:1.0)
+        } else if randomName.contains("Valve") {
+            fullNameLabel.textColor = UIColor(red:0.65, green:0.06, blue:0.47, alpha:1.0)
         } else {
             fullNameLabel.textColor = UIColor(red:1.00, green:0.84, blue:0.00, alpha:1.0)
         }
         
         if randomName.contains("Unusual") {
-                UnusualLabel.text = unusual
-            } else {
-                UnusualLabel.text = ""
-            }
-            
+            UnusualLabel.text = unusual
+        } else if randomName.contains("Valve") {
+            UnusualLabel.text = "★ Unusual Effect: Flying Bits"
+        } else {
+            UnusualLabel.text = ""
         }
         
     }
     
+}
+
 
